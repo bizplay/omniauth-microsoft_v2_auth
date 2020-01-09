@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    omniauth-microsoft_v2_auth (0.1.0)
+    omniauth-microsoft_v2_auth (0.1.2)
       omniauth-oauth2
 
 GEM

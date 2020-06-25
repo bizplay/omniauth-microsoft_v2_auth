@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    omniauth-microsoft_v2_auth (0.1.0)
+    omniauth-microsoft_v2_auth (0.1.2)
       omniauth-oauth2
 
 GEM
@@ -30,10 +30,9 @@ GEM
 
 PLATFORMS
   ruby
-  x86-mingw32
 
 DEPENDENCIES
   omniauth-microsoft_v2_auth!
 
 BUNDLED WITH
-   1.17.2
+   2.1.4

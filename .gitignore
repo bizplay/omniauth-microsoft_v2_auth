@@ -35,6 +35,7 @@ config/initializers/better_errors.rb
 .rbenv-gemsets
 .ruby-version
 .jrubyrc
+.tool-versions
 
 # Ignore images that paperclip / dragonfly stored
 public/attachments/**/*

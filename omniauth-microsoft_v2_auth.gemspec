@@ -17,5 +17,10 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
   spec.require_paths = ['lib']
 
+  # Deliberately unconstrained: the host application pins the oauth2 version
   spec.add_runtime_dependency 'omniauth-oauth2'
+  spec.add_runtime_dependency 'jwt'
+
+  spec.add_development_dependency 'rspec'
+  spec.add_development_dependency 'webmock'
 end
